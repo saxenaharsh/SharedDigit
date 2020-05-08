@@ -19,7 +19,7 @@ public class Main {
         int secondNumLastDigit = 0;
 
         while (true) {
-            if ((firstNumber > 10) && (firstNumber < 99) && ((secondNumber > 10) && (secondNumber < 99))) {
+            if ((firstNumber >= 10) && (firstNumber <= 99) && ((secondNumber >= 10) && (secondNumber <= 99))) {
                 firstNumLastDigit = firstNumber % 10;
                 secondNumLastDigit = secondNumber % 10;
             }
